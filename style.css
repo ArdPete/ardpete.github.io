@@ -4,8 +4,8 @@ body {
 }
 
 header {
-  background-color: #466995;
-  border-bottom: 1px solid #466995;
+  background-color: #fff;
+  border-bottom: 1px solid #cdcdcd;
   position: absolute;
   width: 100%;
   z-index: 5;
@@ -19,7 +19,7 @@ ul {
 }
 
 li {
-  color: #FFF;
+  color: #000;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 300;
