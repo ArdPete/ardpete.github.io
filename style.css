@@ -3,7 +3,7 @@ font-size:16px;
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #252525;
   margin: 0 auto;
 }
 .welcome {
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #252525;
+  background-color: #E5E5E5;
   position: fixed;
   width: 100%;
   z-index: 5;
@@ -20,11 +20,11 @@ header {
 }
 h1.welcome {
 	
-	border: 3px solid white;
+	border: 2px solid #252525;
 	padding: 6px;
 	text-align: center;
 	border-radius: 25px;
-	color: #ffffff;
+	color: #252525;
 	font-family: 'Great Vibes', serif;
 	font-size: 2.5rem;
 	position: fixed;
@@ -34,7 +34,8 @@ h1.welcome {
 	max-width: 400px;
 	z-index: 5;
 	clear: right; 
-    
+    top: 2px;
+	left: 2px;
     margin: auto;	
 }
 
@@ -46,8 +47,8 @@ ul {
   
 }
 
-li {
-  color: #FFFFFF;
+.topbar {
+  color: #252525;
   font-family: 'Verdana', sans-serif;
   font-size: 1rem;
   font-weight: 200;
@@ -62,15 +63,61 @@ li:hover {
   color: #e3e3e3;
 }
 
-p {
+.container {
+  display: flex;
+}
+
+.nav {
+  background-color: #E5E5E5;
+  max-width: 12%;
+  min-width: 140px;
+  min-height: 100%;
+  max-height: 100%;
+  position: fixed;
+  
+}
+
+h2 {
+z-index: 5;
+color: #252525;
+font-family: 'Verdana', sans-serif;
+display: block;
+
+
+}
+
+.sidebar {
+	color: #252525;
+	font-family: 'Verdana', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 200;
+    font-style: bold;
+    display: block;
+	padding: 10px 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: 2px solid #252525;
+	border-radius: 25px;
 	
-  color: #000000;
-  width: 100%;
+	
+	
+}
+    
+
+.main {
+	
+  color: #e5e5e5;
+  max-width: 90%;
+  min-width: 50%;
   font-family: 'Berkshire-Swash', serif;
-  margin-top: 60px;
-  padding-top: 20px;
+  margin-top: 30px;
+  padding-top: 10px;
   margin-bottom: 0px;
-  align: center;
+  position: relative;
+  left: 90px;
+  
+  overflow-wrap: normal;
   
 }
   
