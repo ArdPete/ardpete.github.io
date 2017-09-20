@@ -78,12 +78,13 @@ li:hover {
 }
 
 h2 {
-z-index: 5;
+
 color: #252525;
 font-family: 'Verdana', sans-serif;
-display: block;
-
-
+text-align: center;
+display: inline-block;
+padding: 60px 0px 0px 0px;
+margin-left: 0px;
 }
 
 .sidebar {
@@ -94,9 +95,10 @@ display: block;
     font-style: bold;
     display: block;
 	padding: 10px 0px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-left: 0px;
 	margin-right: 0px;
+	margin-top: 0px;
 	border: 2px solid #252525;
 	border-radius: 25px;
 	
