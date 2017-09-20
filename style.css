@@ -24,7 +24,6 @@ li {
   font-size: 16px;
   font-weight: 300;
   font-style: bold;
-  text-transform: uppercase;
   display: inline-block;
   width: 80px;
 
@@ -33,3 +32,10 @@ li {
 li:hover {
   color: #e3e3e3;
 }
+
+.welcome {
+  color: 000000#;
+  font-family: Verdana, serif;
+  font-size: 32px;
+}
+  
