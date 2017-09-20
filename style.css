@@ -4,9 +4,9 @@ body {
 }
 
 header {
-  background-color: #000000;
-  border-bottom: 1px solid #cdcdcd;
-  position: absolute;
+  background-color: #202020;
+  border-bottom: 1px solid #202020;
+  position: fixed;
   width: 100%;
   z-index: 5;
  
