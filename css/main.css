@@ -2,7 +2,7 @@ header {
 background-color: black;
 margin: 0 auto;
   position: fixed;
-  width: 100%;
+  width: auto;
   z-index: 5;
 }
 
