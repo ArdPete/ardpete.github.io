@@ -1,4 +1,19 @@
 header {
-background-color: skyblue;
+background-color: black;
 margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+li {
+  display: inline-block;
+  font-family: Verdana;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+}
+
+li:hover {
+  color: #dddddd;
 }
