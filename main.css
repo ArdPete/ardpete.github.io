@@ -1,0 +1,15 @@
+
+header {
+background-color: black;
+  color: white;
+  position: fixed;
+  width: 80%;
+}
+
+li {
+  display: inline-block;
+  font-family: Verdana;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+}
