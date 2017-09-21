@@ -200,9 +200,11 @@ footer {
 
 iframe {
 	position: relative;
-	height: 51.5rem;
-	width: 83%;
-	overflow-wrap: normal;
+	min-height: 32rem;
+	max-height: 34.5rem;
+	min-width: 81%;
+	max-width: 81%;
+	
 	left: 80px;
 	top: 80px
 	
