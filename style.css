@@ -1,3 +1,12 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* ruleset for 320px - 480px */
+
+  iframe {
+	  width: 50%;
+  }
+}
+
+
 html {
 font-size:16px;
 min-width: 100%;
@@ -10,6 +19,7 @@ max-width: 200%;
 body {
   background-color: #252525;
   margin: 0 auto;
+  width: 100%;
 }
 .welcome {
 	clear: both;
@@ -22,7 +32,7 @@ header {
   background-position: right top;
   background-attachment: fixed;
   background-repeat: repeat-x;
-  
+  background-size: cover;
   position: fixed;
   width: 100%;
   z-index: 5;
@@ -87,6 +97,7 @@ li:hover {
   background-repeat: repeat-y;
   background-position: right top;
   background-attachment: fixed;
+  background-size: cover;
   max-width: 12%;
   min-width: 140px;
   min-height: 100%;
@@ -155,6 +166,7 @@ footer {
   background-position: right top;
   background-attachment: fixed;
   background-repeat: repeat-x;
+  background-size: cover;
   text-align: center;
     margin: 0px;
 	padding: 0px;
@@ -185,6 +197,7 @@ footer {
   background-repeat: repeat-x;
   background-position: right top;
   background-attachment: fixed;
+  background-size: cover;
   z-index: 4;
   
   max-width: 60px;
@@ -197,19 +210,24 @@ footer {
   left: 0px;
 }
 
-.frame {
-overflow: normal;
-min-width: 100%;
-min-height: 100%;
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
+    /* ruleset for 320px - 480px */
+  header {
+	  background-image: url("Background.jpg");
+  }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* CSS ruleset */
+	background-image: url("Background.jpg");
 }
 
-.frame iframe {
-	position: relative;
-	height: 50.5rem;
-	min-width: 83.5%;
-	overflow: hidden;
-	left: 5rem;
-	top: 5rem;
-	max-width: auto;
-	display: block;
-}
+@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+    /* CSS for high resolution screens */
+  
+  }
+  
+  
