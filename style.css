@@ -1,6 +1,7 @@
 html {
 font-size:16px;
-width: 100%
+min-width: 100%;
+max-width: 200%;
 
 }
 
@@ -181,7 +182,7 @@ footer {
 
   background-color: #E5E5E5;
   background-image: url("Background.jpg");
-  background-repeat: repeat-y;
+  background-repeat: repeat-x;
   background-position: right top;
   background-attachment: fixed;
   z-index: 4;
@@ -196,14 +197,19 @@ footer {
   left: 0px;
 }
 
-
-iframe {
-	position: relative;
-	height: 50.5rem;
-	width: 100rem;
-	overflow-wrap: normal;
-	left: 5rem;
-	top: 5rem;
-	
+.frame {
+overflow: normal;
+min-width: 100%;
+min-height: 100%;
 }
 
+.frame iframe {
+	position: relative;
+	height: 50.5rem;
+	min-width: 83.5%;
+	overflow: hidden;
+	left: 5rem;
+	top: 5rem;
+	max-width: auto;
+	display: block;
+}
