@@ -1,19 +1,19 @@
 intrinsic-container {
 	position: relative;
-	width: 100%;
+	overflow: hidden;
 	height: 100%;
 }
 
 /* 16x9 Aspect Ratio */
 .intrinsic-container-16x9 {
-  padding-bottom: 54.25%;
-  width: 80%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
 }
  
 /* 4x3 Aspect Ratio */
 .intrinsic-container-4x3 {
-  padding-bottom: 70%;
-  width: 80%;
+  padding-bottom: 75%;
+  overflow: hidden;
 }
 
 .intrinsic-container iframe {
@@ -30,7 +30,7 @@ intrinsic-container {
 
 
 html {
-font-size:16px;
+font-size: 16px;
 min-width: 100%;
 max-width: 200%;
 
