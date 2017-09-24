@@ -6,12 +6,12 @@ intrinsic-container {
 
 /* 16x9 Aspect Ratio */
 .intrinsic-container-16x9 {
-  padding-bottom: 56.25%;
+  padding-bottom: 54.25%;
 }
  
 /* 4x3 Aspect Ratio */
 .intrinsic-container-4x3 {
-  padding-bottom: 75%;
+  padding-bottom: 70%;
 }
 
 .intrinsic-container iframe {
@@ -238,30 +238,6 @@ footer {
   background-size: cover;
   background-image: url("Background.jpg");
 }
-intrinsic-container {
-	position: relative;
-	width: 100%;
-	height: 100%;
-}
-
-/* 16x9 Aspect Ratio */
-.intrinsic-container-16x9 {
-  padding-bottom: 56.25%;
-}
- 
-/* 4x3 Aspect Ratio */
-.intrinsic-container-4x3 {
-  padding-bottom: 75%;
-}
-
-.intrinsic-container iframe {
-	position: absolute;
-	left: 3.5%;
-	width: 84%;
-	height: 87%;
-	top: 8%;
-	border: hidden;
-}
 }
 
 @media only screen and (max-width: 700px) {
@@ -270,40 +246,7 @@ intrinsic-container {
   margin: 0 auto;
   width: 100%;
 }
-  .leftbar, footer, .nav, header {
-	background-repeat: repeat-x;
-	background-repeat: repeat-y;
-  background-position: right top;
-  background-attachment: fixed;
-  background-size: cover;
-  background-image: url("Background.jpg");
 
-  }
-  
-  intrinsic-container {
-	position: relative;
-	width: 100%;
-	height: 100%;
-}
-
-/* 16x9 Aspect Ratio */
-.intrinsic-container-16x9 {
-  padding-bottom: 56.25%;
-}
- 
-/* 4x3 Aspect Ratio */
-.intrinsic-container-4x3 {
-  padding-bottom: 75%;
-}
-
-.intrinsic-container iframe {
-	position: absolute;
-	left: 3.5%;
-	width: 84%;
-	height: 87%;
-	top: 8%;
-	border: hidden;
-}
 }
 
 @media only screen and (max-width: 470px) {
@@ -312,37 +255,5 @@ intrinsic-container {
   background-color: #252525;
   margin: 0 auto;
   width: 100%;
-}
-.leftbar, footer, .nav, header {
-	background-repeat: repeat-x;
-  background-position: right top;
-  background-attachment: fixed;
-  background-size: cover;
-  background-image: url("Background.jpg");
-}
-
-intrinsic-container {
-	position: relative;
-	width: 100%;
-	height: 100%;
-}
-
-/* 16x9 Aspect Ratio */
-.intrinsic-container-16x9 {
-  padding-bottom: 56.25%;
-}
- 
-/* 4x3 Aspect Ratio */
-.intrinsic-container-4x3 {
-  padding-bottom: 75%;
-}
-
-.intrinsic-container iframe {
-	position: absolute;
-	left: 3.5%;
-	width: 84%;
-	height: 87%;
-	top: 8%;
-	border: hidden;
 }
   }
