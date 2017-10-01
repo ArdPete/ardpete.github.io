@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Modestly Amazing Designs</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Cookie|Great+Vibes" rel="stylesheet">
@@ -13,9 +14,14 @@
 
 <body>
 
-  <header>
-  <h1 class="welcome">Modestly Amazing Designs</h1>
-  <div class="welcome">
+  <div class="header">
+  <div class="container">
+  <div class="row">
+  
+  <div class="col-3title"> <!-- 25% -->
+  <p class=madesigns>Modestly Amazing Designs</p>
+  </div>
+  <div class="col-9"> <!-- 77% -->
 	<ul>
       <li class="topbar">Home</li>
       <li class="topbar">About</li>
@@ -23,13 +29,20 @@
       <li class="topbar">Contact</li>
   </ul>
 	</div>
-  </header>
-  
-
-  
- <div class="container">
-    <div class="nav">
-  <h2>What I've Learned So Far...</h2>
+	
+	</div>
+	
+	<div class="row">
+	
+	<div class="col-10frame">
+	<div class="intrinsic-container">
+  <iframe src="homepage.html" allowfullscreen></iframe>
+</div>
+	
+	
+</div>
+<div class="col-2side">
+  <h2 class="sidetitle">What I've Learned So Far...</h2>
   <ul>
     <li class="sidebar">HTML</li>
     <li class="sidebar">CSS</li>
@@ -38,13 +51,14 @@
     <li class="sidebar">GitHub</li>
   </ul>
     </div>
+	</div>
+	
+
+    
   
   <div class="leftbar">
   </div>
-  
-  <div class="intrinsic-container">
-  <iframe src="homepage.html" allowfullscreen></iframe>
-</div>
+
   </body>
   
   
