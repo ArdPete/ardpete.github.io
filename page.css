@@ -2,17 +2,12 @@ html {
   font-size:12px;
   font-family: Verdana;
   width: 100%;
-  height: 100%;
 }
 
 body {
   background-color: #252525;
   color: #e5e5e5;
-  overflow: auto;
   position: relative;
-  margin: auto;
-  width: 100%;
-  height: 100%;
 }
 
 h2 {
@@ -23,7 +18,6 @@ h2 {
 .main {
 	padding: 10px;
 	margin: 0rem;
-	height: auto;
 	min-width: 97%;
 	max-width: 100%;
 	position: relative;
@@ -37,18 +31,15 @@ h2 {
 	body {
   margin: auto;
   width: 95%;
-  height: auto;
-  padding: auto;
-  position: absolute;
 }
 .main {
-    padding: 1em;
+    
   }
   
   p {
 	  padding: 1em;
 	  position: relative;
-	  left: 4%;
+	  
 	  width: 97%;
   }
 }
@@ -57,17 +48,16 @@ h2 {
 	body {
   margin: auto;
   width: 95%;
-  height: auto;
-  padding: auto;
+
 }
 .main {
-    padding: 1em;
+
   }
   
   p {
 	  padding: 1em;
 	  position: relative;
-	  left: 4%;
+	  
 	  width: 97%;
   }
 }
@@ -77,36 +67,12 @@ h2 {
 	body {
   margin: auto;
   width: 95%;
-  height: auto;
   padding: auto;
 }
 .main {
-    padding-left: 20px;
+    
 	max-width: 82%;
 	
 	left: 5px;
-	overflow: hidden;
   }
   
-  p {
-	  padding: 1em;
-	  position: relative;
-	  left: 4%;
-	  
-  }
-}
-
-
-
-
-/* 16x9 Aspect Ratio */
-.main-16x9 {
-  padding-bottom: 56.25%;
-  overflow: hidden;
-}
- 
-/* 4x3 Aspect Ratio */
-.main-4x3 {
-  padding-bottom: 75%;
-  overflow: hidden;
-}
