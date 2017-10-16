@@ -5,7 +5,11 @@
   <title>Modestly Amazing Designs</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Cookie|Great+Vibes" rel="stylesheet">
-
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
   
 </head>
 
@@ -19,7 +23,7 @@
   <div class="row">
   
   <div class="col-3title col-m-3title"> <!-- 25% -->
-  <p class=madesigns>Modestly Amazing Designs</p>
+  <p class="madesigns">Modestly Amazing Designs</p>
   </div>
   <div class="col-9 col-m-9"> <!-- 77% -->
 	<ul>
@@ -36,7 +40,7 @@
 	
 	<div class="col-10frame col-m-10frame">
 	<div class="intrinsic-container">
-  <iframe src="homepage.html" allowfullscreen></iframe>
+  <iframe src="homepage.html" frameborder="0" onload="resizeIframe(this)"></iframe>
 </div>
 	
 	
@@ -53,17 +57,19 @@
     </div>
 	</div>
 	
-	<div class="row">
-	<div class="col-12 col-m-12">
-  <div class="bottom">
-  <p class="copyright">&copy; 2017 Modestly Amazing Designs Ltd.</p>
-  </div>
-  </div>
+	
   </div>
     
   
   <div class="leftbar">
   </div>
 
-  </body>
+  
+  <div class="row">
+	<div class="col-12 col-m-12">
+  <div class="bottom">
+  <p class="copyright" id="footer">&copy; 2017 Modestly Amazing Designs Ltd.</p>
+  </div>
+  </div>
 
+  </body>
