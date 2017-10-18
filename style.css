@@ -114,7 +114,8 @@ html {
     font-size: 8rem;
 	text-align: center;
 	color: #fff;
-	background-color: rgb(37, 37, 37, 0.65);
+	background-color: #252525;
+	opacity: 0.75;
   }
 }
 
@@ -127,8 +128,40 @@ html {
     font-size: 6rem;
 	text-align: center;
 	color: #fff;
-	background-color: rgb(37, 37, 37, 0.65);
+	background-color: #252525;
+	opacity: 0.75;
   }
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .banner {
+    height: 50rem;
+  }
+
+  .mad {
+    font-size: 8rem;
+	text-align: center;
+	color: #fff;
+	background-color: #252525;
+	opacity: 0.75;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	  .banner {
+    height: 35rem;
+  }
+
+  .mad {
+    font-size: 6rem;
+	text-align: center;
+		color: #fff;
+	background-color: #252525;
+	opacity: 0.75;
+  }
+
 }
 
 
