@@ -1,69 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Modestly Amazing Designs</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Cookie|Great+Vibes" rel="stylesheet">
-
-  
 </head>
 
-
-
-
 <body>
+  <!-- Header -->
+  <nav class="header">
+    <span class="logo">M.A.D</span>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">BLOG</a></li>
+	  <li><a href="#">PORTFOLIO</a></li>
+	  <li><a href="#">CONTACT</a></li>
+    </ul>
+  </nav>
 
-  <div class="header">
-  <div class="container">
-  <div class="row">
+  <!-- Banner -->
+  <div class="banner">
+    <h1>Modestly Amazing Designs</h1>
+  </div>
   
-  <div class="col-3title col-m-3title"> <!-- 25% -->
-  <p class=madesigns>Modestly Amazing Designs</p>
-  </div>
-  <div class="col-9 col-m-9"> <!-- 77% -->
-	<ul>
-      <li class="topbar">Home</li>
-      <li class="topbar">About</li>
-      <li class="topbar">Portfolio</li>
-      <li class="topbar">Contact</li>
-  </ul>
-	</div>
-	
-	</div>
-	
-	<div class="row">
-	
-	<div class="col-10frame col-m-10frame">
-	<div class="intrinsic-container">
-  <iframe src="homepage.html" allowfullscreen></iframe>
-</div>
-	
-	
-</div>
-<div class="col-2side col-m-2side">
-  <h2 class="sidetitle">What I've Learned So Far...</h2>
-  <ul>
-    <li class="sidebar">HTML</li>
-    <li class="sidebar">CSS</li>
-    <li class="sidebar">SASS</li>
-    <li class="sidebar">Command Line</li>
-    <li class="sidebar">GitHub</li>
-  </ul>
-    </div>
-	</div>
-	
-	<div class="row">
-	<div class="col-12 col-m-12">
-  <div class="bottom">
-  <p class="copyright">&copy; 2017 Modestly Amazing Designs Ltd.</p>
-  </div>
-  </div>
-  </div>
+  
+   <!-- Content -->
+<section class="supporting">
+<div class="container">
+      <div class="journal">
+        <h1 class="learnt">What I've Learnt So Far...</h1>
+        <div class="col">
+          <img src="images/HTML5.png">
+          <h2>HTML5</h2>
+          <p>The foundation of all web pages. Allows you to organize text and add images and videos.</p>
+          
+        </div>
+        
+        <div class="col">
+          <img src="images/css3.png">
+          <h2>CSS3</h2>
+          <p>Style websites and design them to look how you want them to look.</p>
+          
+        </div>
+		
+		<div class="col">
+          <img src="images/git.png">
+          <h2>GitHub</h2>
+          <p>Software development platform used to host this site. Also allows you to maintain different versions of code.</p>
+          
+        </div>
+		
+		<div class="col">
+          <img src="images/commandline.png">
+          <h2>Command Line</h2>
+          <p>A different way to communicate with computers rather than using a click and point method. Allows developers to accomplish a wider set of tasks.</p>
+          
+        </div>
+		
+		<div class="col">
+          <img src="images/sass.png">
+          <h2>SASS</h2>
+          <p>A styling language built on the foundations of CSS to reduce a lot of the repetition and maintainability challenges of traditional CSS.</p>
+          
+        </div>
+		
+        </div>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <footer>
     
-  
-  <div class="leftbar">
-  </div>
-
-  </body>
-
+    <div class="content">
+      <p class="footer">
+        &copy; 2017 Modestly Amazing Designs Ltd.
+      </p>
+      </div>
+  </footer>
+</body>
+</html>
