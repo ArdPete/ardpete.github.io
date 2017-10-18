@@ -76,10 +76,10 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50rem;
+  height: 55rem;
   background: url("Background.jpg") center center no-repeat;
   background-size: cover;
-  color: #252525;
+  
   
 }
 
@@ -111,8 +111,9 @@ html {
 
   .banner h1 {
     font-size: 8rem;
-	  color: rgb(255, 255, 255, 0.90);
-  background-color: rgb(37, 37, 37, 0.65);
+	text-align: center;
+	color: rgb(255, 255, 255, 0.90);
+	background-color: rgb(37, 37, 37, 0.65);
   }
 }
 
@@ -123,8 +124,9 @@ html {
 
   .banner h1 {
     font-size: 6rem;
-	  color: rgb(255, 255, 255, 0.90);
-  background-color: rgb(37, 37, 37, 0.65);
+	text-align: center;
+	color: rgb(255, 255, 255, 0.90);
+	background-color: rgb(37, 37, 37, 0.65);
   }
 }
 
