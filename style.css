@@ -149,21 +149,6 @@ html {
 	opacity: 0.75;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	  .banner {
-    height: 35rem;
-  }
-
-  .mad {
-    font-size: 6rem;
-	text-align: center;
-		color: #fff;
-	background-color: #252525;
-	opacity: 0.75;
-  }
-
-}
-
 
 /* Journal */
 
