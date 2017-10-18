@@ -148,6 +148,22 @@ html {
 	opacity: 0.75;
 }
   }
+  
+  @media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) {
+	     .banner {
+    height: 50rem;
+  }
+
+  .mad {
+    font-size: 8rem;
+	text-align: center;
+	color: #fff;
+	background-color: #252525;
+	opacity: 0.75;
+}
+  }
 
 /* Journal */
 
