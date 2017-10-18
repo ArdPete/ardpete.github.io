@@ -98,11 +98,29 @@ html {
   font-weight: 900;
   font-family: "Great Vibes";
   text-align: center;
-  color: rgb(255, 255, 255, 0.90);
-  background-color: rgb(37, 37, 37, 0.65);
+	color: #fff;
+	background-color: #252525;
+	opacity: 0.75;
 
   
 }
+
+    @media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px)
+  and (orientation: portrait)  {
+	     .banner {
+    height: 50rem;
+  }
+
+  .mad {
+    font-size: 6rem;
+	text-align: center;
+	color: #fff;
+	background-color: #252525;
+	opacity: 0.75;
+}
+  }
 
 @media only screen and (max-width: 750px) {
   .banner {
@@ -119,20 +137,6 @@ html {
   }
 }
 
-@media only screen and (max-width: 530px) {
-  .banner {
-    height: 30rem;
-  }
-
-  .mad {
-    font-size: 6rem;
-	text-align: center;
-	color: #fff;
-	background-color: #252525;
-	opacity: 0.75;
-  }
-}
-
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) { 
@@ -142,23 +146,6 @@ html {
 
   .mad {
     font-size: 7rem;
-	text-align: center;
-	color: #fff;
-	background-color: #252525;
-	opacity: 0.75;
-}
-  }
-  
-    @media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px)
-  and (orientation: portrait)  {
-	     .banner {
-    height: 50rem;
-  }
-
-  .mad {
-    font-size: 8rem;
 	text-align: center;
 	color: #fff;
 	background-color: #252525;
