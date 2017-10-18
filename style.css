@@ -149,6 +149,22 @@ html {
 }
   }
   
+    @media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px)
+  and (orientation: portrait)  {
+	     .banner {
+    height: 50rem;
+  }
+
+  .mad {
+    font-size: 8rem;
+	text-align: center;
+	color: #fff;
+	background-color: #252525;
+	opacity: 0.75;
+}
+  }
 
 /* Journal */
 
