@@ -111,6 +111,8 @@ html {
 
   .banner h1 {
     font-size: 8rem;
+	  color: rgb(255, 255, 255, 0.90);
+  background-color: rgb(37, 37, 37, 0.65);
   }
 }
 
@@ -121,6 +123,8 @@ html {
 
   .banner h1 {
     font-size: 6rem;
+	  color: rgb(255, 255, 255, 0.90);
+  background-color: rgb(37, 37, 37, 0.65);
   }
 }
 
