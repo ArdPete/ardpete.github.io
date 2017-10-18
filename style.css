@@ -107,6 +107,8 @@ html {
 @media only screen and (max-width: 750px) {
   .banner {
     height: 40rem;
+	color: rgb(255, 255, 255, 0.90);
+	background-color: rgb(37, 37, 37, 0.65);
   }
 
   .banner h1 {
@@ -120,6 +122,8 @@ html {
 @media only screen and (max-width: 530px) {
   .banner {
     height: 30rem;
+	color: rgb(255, 255, 255, 0.90);
+	background-color: rgb(37, 37, 37, 0.65);
   }
 
   .banner h1 {
