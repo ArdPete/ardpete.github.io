@@ -199,7 +199,7 @@ top: 0.5rem;
   justify-content: center;
   align-items: left;
   height: 45rem;
-  background: url("images/About.jpg") center center no-repeat;
+  background: url("/images/About.jpg") center center no-repeat;
   background-size: cover;
   width: 100%;
   
