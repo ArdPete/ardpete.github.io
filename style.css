@@ -3,18 +3,6 @@ html {
   width: 100%;
 }
 
-@media only screen and (max-width: 1000px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (max-width: 680px) {
-  html {
-    font-size: 14px;
-  }
-}
-
 /* Header */
 
 .header {
@@ -59,15 +47,7 @@ html {
   color: #fff;
 }
 
-@media only screen and (max-width: 550px) {
-  .header {
-    flex-direction: column;
-  }
 
-  .header .logo {
-    flex-grow: 0;
-  }
-}
 
 /* Banner */
 
@@ -76,10 +56,10 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50rem;
+  height: 55rem;
   background: url("Background.jpg") center center no-repeat;
   background-size: cover;
-  color: #252525;
+  width: 100%;
   
 }
 
@@ -92,58 +72,57 @@ html {
   font-weight: 500;
 }
 
-.banner h1 {
-  padding-top: 1.11rem;
+.mad {
+  padding: 1.5rem 1.5rem 1.2rem 0.85rem;
   font-size: 11rem;
   font-weight: 900;
   font-family: "Great Vibes";
   text-align: center;
+	color: #fff;
+	background-color: #252525;
+	opacity: 0.75;
 
   
 }
 
-@media only screen and (max-width: 750px) {
-  .banner {
-    height: 40rem;
-  }
 
-  .banner h1 {
-    font-size: 8rem;
-  }
-}
 
-@media only screen and (max-width: 530px) {
-  .banner {
-    height: 30rem;
-  }
-
-  .banner h1 {
-    font-size: 6rem;
-  }
-}
 
 
 /* Journal */
 
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
 .journal {
-  padding: 0 25% 4rem 25%;
-  background-color: #252525;
+  padding: 0 15%;
+  background-color: #ffffff;
   color: #4a4a4a;
   line-height: 1.4;
 }
 
+ .learnt {
+	font-family: Verdana, serif;
+	font-weight: bold;
+	font-size: 5rem;
+	color: black;
+}
 .supporting .col {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   display: inline-block;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   position: relative;
   top: 25px;
+  
 }
 
 .supporting img {
-  height: 32px;
+  height: 70px;
 }
 
 .supporting h2 {
@@ -174,38 +153,44 @@ html {
   border: 2px solid #333333; 
 }
 
-@media only screen and (max-width: 680px) {
-  .journal {
-    padding: 0 10% 4rem 10%;
-  }
-}
+
 
 /* Footer */
 
 footer {
   display: flex;
-
   padding: 0 1%;
-  background-color: #ffffff;
-  width: 100%;
+  background-color: #252525;
+  width: auto;
   height: 2.44rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer {
-	position: relative;
-	display: flex;
-  color: #252525;
-  font-family: Verdana;
-  font-weight: bold;
-  justify-content: center;
-  top: 0.5rem;
+display: flex;
+color: #fff;
+font-family: Verdana;
+font-weight: bold;
+justify-content: center;
+top: 0.5rem;
 }
 
 
+
+
+
 @media only screen and (max-width: 750px) {
-  footer {
-    flex-direction: column;
-    padding: 0 10% 2rem 10%;
+	.banner {
+    height: 40rem;
+  }
+
+	.mad {
+    font-size: 8rem;
+	text-align: center;
+	color: #fff;
+	background-color: #252525;
+	opacity: 0.75;
   }
 
   footer .image-container {
@@ -213,4 +198,71 @@ footer {
     margin-bottom: 2rem;
     overflow: hidden;
   }
+
+	footer {
+    flex-direction: column;
+    padding: 0 10% 2rem 10%;
+  }
 }
+
+
+@media only screen and (max-width: 680px) {
+   html {
+    font-size: 14px;
+	}
+
+ .journal {
+  padding: 0 15%;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  line-height: 1.4;
+}
+}
+
+/* For Laptops/Tablets */
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) { 
+    .banner {
+    height: 50rem;
+  }
+
+  .mad {
+    font-size: 5rem;
+	text-align: center;
+	color: #fff;
+	background-color: #252525;
+	opacity: 0.75;
+}
+  }
+
+/* For Mobiles */
+
+    @media screen 
+	
+  and (device-min-width: 320px) 
+  and (device-max-height: 640px)
+  and (orientation: portrait)  {
+	 .header {
+    flex-direction: column;
+  }
+
+  .header .logo {
+    flex-grow: 0;
+  }
+
+	.banner {
+    height: 50rem;
+  }
+
+	.mad {
+    font-size: 2rem;
+	text-align: center;
+	color: #fff;
+	background-color: #252525;
+	opacity: 0.75;
+}
+  }
+
+
