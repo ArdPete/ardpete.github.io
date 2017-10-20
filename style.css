@@ -177,7 +177,7 @@ color: #fff;
 font-family: Verdana;
 font-weight: bold;
 justify-content: center;
-top: 0.5rem;
+
 }
 
 
@@ -199,7 +199,7 @@ top: 0.5rem;
   justify-content: center;
   align-items: left;
   height: 45rem;
-  background: url("/images/about.jpg") center center no-repeat;
+  background: url("about.jpg") center center no-repeat;
   background-size: cover;
   width: 100%;
   
@@ -231,7 +231,7 @@ top: 0.5rem;
 
 .bodytext {
 	font-family: "Exo 2", verdana, sans-serif;
-	font-size: 0.75rem;
+	font-size: 1rem;
 	
 }
 
@@ -245,19 +245,25 @@ top: 0.5rem;
 position: relative;
 border-radius: 40%;
 width: 20rem;
-float: left;
+display: inline-block;
 margin-right: 1%;
-margin-bottom: 1%;
+
+float: left;
 }
 
 .desc {
 	position: relative;
+	display: inline-block;
 	width: 50%;
-	
+	left: 25%;
 }
 
+#desc {
+	
+	width: 100%;
 
-
+justify-content: space-around;
+}
 
 
 
