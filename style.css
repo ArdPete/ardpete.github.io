@@ -278,6 +278,7 @@ justify-content: space-around;
   background: url("blog.jpg") center center no-repeat;
   background-size: cover;
   width: 100%;
+  
 }
 
 .blog {
@@ -309,6 +310,23 @@ text-align: center;
 	padding: 0;
 	align-items: center;
 	
+}
+
+.blogphoto { 
+position: relative;
+border-radius: 10%;
+width: 20rem;
+display: inline-block;
+margin-right: 1%;
+
+float: left;
+}
+
+#posts {
+	
+	margin-top: 20px;
+	width: 100%;
+justify-content: space-around;
 }
 
 .bloghead {
@@ -356,6 +374,11 @@ h4 {
 	font-weight: bold;
 	
 }
+.readmore {
+	font-family: "Exo 2", verdana, sans-serif;
+	font-size: 0.60rem;
+	letter-spacing: 2px;
+	}
 
 .readmore{
 	background-color: black;
@@ -371,6 +394,22 @@ h4 {
 article p{
 	margin-bottom: 7px;
 }
+
+.backbtn {
+	font-family: "Exo 2", verdana, sans-serif;
+	font-size: 1rem;
+	letter-spacing: 2px;
+	background-color: black;
+	padding: 5px 10px;
+	color: white;
+	text-decoration: none;
+	border-radius: 3px;
+	display: inline-block;
+	margin-bottom: 10px;
+	}
+	
+	.backbtn:hover{
+	background-color: #383838;
 
 #featured{
 	position: relative;
