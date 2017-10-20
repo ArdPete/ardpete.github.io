@@ -198,7 +198,7 @@ justify-content: center;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  height: 45rem;
+  height: 55rem;
   background: url("about.jpg") center center no-repeat;
   background-size: cover;
   width: 100%;
@@ -309,6 +309,9 @@ justify-content: space-around;
   }
 }
 
+.aboutbanner {
+  height: 40rem;
+
 
 @media only screen and (max-width: 680px) {
    html {
@@ -330,6 +333,9 @@ justify-content: space-around;
   and (max-device-width: 1600px) { 
     .banner {
     height: 50rem;
+  }
+  .aboutbanner {
+  height: 50rem;
   }
 
   .mad {
@@ -358,6 +364,9 @@ justify-content: space-around;
 
 	.banner {
     height: 50rem;
+  }
+  .aboutbanner {
+  height: 50rem;
   }
 
 	.mad {
