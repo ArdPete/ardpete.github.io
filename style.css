@@ -23,6 +23,8 @@ html {
   opacity: 0.90;
 }
 
+
+
 .header .logo {
  flex-grow: 0;
   color: #555555;
@@ -175,9 +177,10 @@ footer {
 .footer {
 display: flex;
 color: #fff;
-font-family: Verdana;
+font-family: "Exo 2", Verdana;
 font-weight: bold;
 justify-content: center;
+letter-spacing: 5px;
 
 }
 
@@ -188,9 +191,63 @@ justify-content: center;
 
 
 
+/* Contact Me */
 
+.contactbanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 55rem;
+  background: url("contact.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  
+}
 
+.contact {
+  padding: 1.5rem 1.5rem 1.2rem 0.85rem;
+  font-size: 10rem;
+  font-weight: 900;
+  font-family: "Great Vibes";
+  
+	color: #000;
+	opacity: 0.95;
+}
 
+.blacksocial {
+	display: inline;
+	width: 40px;
+}
+
+.contacttext {
+	font-family: "Exo 2", verdana, sans-serif;
+	font-size: 1rem;
+	text-align: left;
+	position: relative;
+	bottom: 1%;
+}
+
+#contactdesc {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+}
+
+.contactdesc {
+	position: relative;
+	display: inline-block;
+	width: 25%;
+text-align: center;	
+align-items: center;	
+}
+
+.sharms {
+	display: relative;
+	text-align: center;
+	font-family: "Exo 2", verdana, sans-serif;
+}
 
 /* About */
 
@@ -211,7 +268,7 @@ justify-content: center;
   font-size: 10rem;
   font-weight: 900;
   font-family: "Great Vibes";
-  text-align: center;
+  
 	color: #fff;
 	opacity: 0.95;
 }
@@ -374,10 +431,20 @@ h4 {
 	font-weight: bold;
 	
 }
+
+.timestamp { 
+font-family: "Exo 2", Verdana;
+font-size: 7.5pt;
+font-weight: bold;
+left: 10px;
+position: relative;
+}
+
 .readmore {
 	font-family: "Exo 2", verdana, sans-serif;
 	font-size: 0.60rem;
 	letter-spacing: 2px;
+	
 	}
 
 .readmore{
@@ -409,7 +476,7 @@ article p{
 	}
 	
 	.backbtn:hover{
-	background-color: #383838;
+	background-color: #383838;}
 
 #featured{
 	position: relative;
@@ -460,11 +527,13 @@ article p{
     flex-direction: column;
     padding: 0 10% 2rem 10%;
   }
-}
+
 
 .aboutbanner {
   height: 55rem;
 
+}
+}
 
 @media only screen and (max-width: 680px) {
    html {
@@ -477,7 +546,7 @@ article p{
   color: #4a4a4a;
   line-height: 1.4;
 }
-}
+
 
 .blogposts {
 
@@ -485,7 +554,8 @@ position: relative;
 	width: 100%;
 	margin: auto;
 	border: solid black;
-
+}
+}
 
 /* For Laptops/Tablets */
 
@@ -506,7 +576,7 @@ position: relative;
 	background-color: #252525;
 	opacity: 0.75;
 }
-  }
+  
   
   .blogposts {
 
@@ -514,7 +584,8 @@ position: relative;
 	width: 100%;
 	margin: auto;
 	border: solid black;
-
+  }
+  }
 
 /* For Mobiles */
 
@@ -545,11 +616,10 @@ position: relative;
 	background-color: #252525;
 	opacity: 0.75;
 }
-  }
-
 .blogposts {
 
 position: relative;
 	width: 100%;
-	margin: auto;
-	border: solid black;
+	margin: auto;}
+  }
+
